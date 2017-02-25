@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Example</title>
+
+  <!-- Responsive viewport tag, tells small screens that it's responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/sign_up.css" />
+</head>
+<body>
+  <form class='demo-form' action="/signup/" method='post'>
+    <img src="images/logo.png" alt="AnalogSea" class="logo">
+    <div class="box">
+      <a><h1>Sign up</h1></a>
+      <a><h4>Email</h4></a>
+      <input placeholder='foo@bar.com' type="email" name='email' id='email' required/>
+      <a><h4>Password</h4></a>
+        <input placeholder='1234passw0rd' type="password" name='password' id='password' required />
+       <section>
+         <button type='submit'><a><span>Sign up</span></a></button>
+         <a href="/forgot-password/new"><h6>Forget password?</h6></a>
+       </section>
+        <section class="logIn">
+        <h5>  Already have an account?  <a href="/login">Log in</a></h5>
+        </section>
+    </div>
+
+    </form>
+</body>
+</html>

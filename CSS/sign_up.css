@@ -1,0 +1,71 @@
+body {
+  background-color: #5593E0;
+  margin: 0px;
+}
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 130px;
+  height: 35px;
+  padding-top: 50px;
+}
+.box{
+  background-color: #EEEEEE;
+  border-radius: 2px solid white;
+  position: absolute;
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  height: 500px;
+  width: 400px;
+  left: 22%;
+  top: 14.6%;
+}
+h1 {
+  padding-bottom: 0px;
+}
+
+h4 {
+  text-align: left;
+  font-family: 'Amatic SC', cursive;
+  padding-left: 30px;
+  padding-top: 12px;
+}
+h5 {
+  color: white;
+}
+h6 {
+  font-family: 'Roboto', helvetica, sans-serif;
+}
+section {
+  padding: 20px;
+}
+input {
+  align-items: center;
+  width: 310px;
+  height: 30px;
+  border: 2px solid grey;
+  padding: 15px;
+  font-size: 20px;
+}
+button {
+  background-color: #7DC179;
+  border: 2px solid #7DC179;
+  width: 340px;
+  height: 55px;
+  color: white;
+
+
+}
+
+section a span {
+    font-size: 22px;
+    padding: 15px;
+    color: white;
+}
+
+section a {
+  color: grey;
+}
+.logIn {
+  color: white;
+}
